@@ -107,11 +107,8 @@ position: fixed;
 img {
 
 width:auto;
-
 height:80vw;
-
 max-height:4in;
-
 border-radius:10px;
 
 }
@@ -886,12 +883,9 @@ border-radius:10px;
 
 .cont img.banner {
 
-height:auto;
-
-width: 45vw;
-
-max-width:3in;
-
+width:auto;
+height:80vw;
+max-height:4in;
 border-radius:10px;
 
 }
