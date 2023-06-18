@@ -86,6 +86,24 @@ outline:0px;
 
 }
 
+.hide {
+display: none;
+visibility: hidden;
+opacity: 0%;
+size: 0px;
+margin: 0px;
+padding: 0px;
+font-size: 0px; 
+z-index: 0;
+size: 0;
+height: 0px;
+width: 0px;
+bottom:0px;
+right: 0px;
+position: fixed;
+
+}
+
 img {
 
 width:auto;
