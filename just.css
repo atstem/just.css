@@ -80,6 +80,8 @@ outline:0px;
 
 --grey: #505050;
 
+--dark:#424561;
+
 --pink:#ffb2ab;
 
 --vio:#b496ff;
@@ -415,6 +417,22 @@ box-shadow: 2.5px 2.5px 0px 2px var(--grey );
 
 }
 
+.d {
+color: var(--dark);
+}
+
+.dbg {
+background-color: var(--dark);
+}
+
+.dol {
+	outline: var(--dark) solid 2px;
+}
+
+.dsh {
+	box-shadow: 2.5px 2.5px 0px 2px var(--dark);
+}
+
 .r {
 
 color:var(--red);
@@ -440,27 +458,19 @@ box-shadow: 2.5px 2.5px 0px 2px var(--red);
 }
 
 .y {
-
 color:var(--yell);
-
 }
 
 .ybg {
-
 background-color:var(--yell);
-
 }
 
 .yol {
-
 outline:  var(--yell) solid 2px;
-
 }
 
 .ysh {
-
 box-shadow: 2.5px 2.5px 0px 2px var(--yell );
-
 }
 
 .l {
