@@ -1,91 +1,56 @@
-  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Comfortaa:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  
 
 ::-webkit-scrollbar {
-
 width: 5px;
-
 height: 8px;
-
 }
 
 ::-webkit-scrollbar-­corner {
-
 background: none;
-
 }
 
 ::-webkit-scrollbar-­thumb {
-
 background: #ffffff;
-
 }
 
 ::-webkit-scrollbar-­track {
-
 background-color: transparent;
-
 }
 
 body {
-
 margin: 0px;
-
 user-zoom: none;
-
 background-color: white;
-
 color: back;
-
 user-select: none;
-
 word-break: break-all;
-
 }
 
 * {
-
 margin:0px;
-
 border: 0px;
-
 outline: none;
-
 user-select: none;
-
 border-radius: 0px;
-
 border-style: none;
-
 font-family: 'Helvetica', sans-serif;
-
 text-decoration: none;
-
 text-rendering: optimizeLegibility;
-
 text-transform: none;
-
 font-family: 'Helvetica', sans-serif;
-
 outline:0px;
 
 --red:#ff455b;
-
 --blue:#6548db;
-
 --yell:#ffe24f;
-
 --prim:#48cf8b;
-
 --black:#141111;
-
 --grey: #505050;
-
 --dark:#424561;
-
 --pink:#ffb2ab;
-
 --vio:#b496ff;
-
 }
 
 bg {
@@ -96,6 +61,14 @@ right:0;
 bottom:0;
 position:fixed;
 display:block;
+}
+
+.fullscreen,.fsrc {
+top:0;
+left:0;
+right:0;
+bottom:0;
+position:fixed;
 }
 
 .hide {
@@ -117,194 +90,115 @@ position: fixed;
 }
 
 img {
-
 width:auto;
 height:80vw;
 max-height:4in;
 border-radius:10px;
-
 }
 
 a.btn {
-
  display:flex;
-
  width:max-content;
-
  border-radius: 10px;
-
-  color: white;
-
-  padding: 10px 1.8em;
-
-  font-size: 16px; 
-
+ color: white;
+ padding: 10px 1.8em;
+font-size: 16px; 
 height:max-content;
-
 }
 
+
 div.input {
-
 height: max-content;
-
 width: max-content;
-
 background-color: #f2f2f2;
-
 padding: 3px 10px;
-
 border-radius:10px;
-
 display:flex;
-
-  display: flex;
-
 justify-content: flex-start;
-
 place-content: flex-start;
-
-  flex-direction:row;
-
+flex-direction:row;
 }
 
 div.input span {
-
 background-color:f2f2f2;
-
 width:1em;
-
 height:1em;
-
 padding: 10px;
-
 border-radius: 10px;
-
 font-size: 28px; 
-
 }
 
 div.input input {
-
 background-color:f2f2f2;
-
 width:10em;
-
 height: 3em;
-
 padding: 5px 10px;
-
 border-radius: 10px;
-
 font-size: 16px; 
-
 }
 
 div.social {
-
 height: max-content;
-
 width: max-content;
-
 background-color: #f2f2f2;
-
 padding: 5px 10px;
-
 border-radius:10px;
-
 gap:5px;
-
-  display: flex;
-
+display: flex;
 justify-content: flex-start;
-
 place-content: flex-start;
-
-  flex-direction:column;
-
+flex-direction:column;
 }
 
 div.social textarea {
-
 background-color:f2f2f2;
-
 width:18em;
-
 height: 10em;
-
 padding: 5px 10px;
-
 border-radius: 10px;
-
 font-size: 16px; 
-
 }
 
 input {
-
 background-color:f2f2f2;
-
 width:10em;
-
 height: 3em;
-
 padding: 5px 10px;
-
 border-radius: 10px;
-
 font-size: 16px; 
-
 }
 
 textarea {
-
 background-color:f2f2f2;
-
 width:19em;
-
 height: 10em;
-
 padding: 5px 10px;
-
 border-radius: 10px;
-
 font-size: 16px; 
-
 }
 
 p.small {
-
 font-size:14px;
-
 }
 
 p {
-
 font-size:16px;
-
 }
 
 p.mid {
-
 font-size:24px
-
 }
 
 p.big{
-
 font-size:32px;
-
 }
 
 p.hel {
-
 font-family: 'Helvetica', sans-serif;
-
 }
 
 p.mono {
-
 font-family: monospace;
-
 }
 
 p.spacemono {
@@ -313,6 +207,22 @@ font-family: 'Space Mono', monospace;
 
 p.mont {
 font-family: 'Montserrat', sans-serif;
+}
+
+.comfortaa,
+p.comfortaa,
+.comfortaa p,
+.Comfortaa,
+p.Comfortaa,
+.Comfortaa p,
+.comfort,
+p.comfort,
+.comfort p,
+.comfort.all *,
+.comfort.all * *,
+.comfortaa.all *,
+.comfortaa.all * * {
+font-family: 'Comfortaa', Helvetica, sans-serif;
 }
 
 p.lora {
@@ -324,63 +234,43 @@ text-transform: capitalize;
 }
 
 p.italic {
-
 font-style: italic;
-
 }
 
 p.bold {
-
 font-weight: 700;
-
 }
 
 p.light {
-
 font-weight: lighter;
-
 }
 
 span {
-
 font-size:28px;
-
 }
 
 span.mid {
-
 font-size:32px
-
 }
 
- span.big{
-
+span.big{
 font-size:46px;
-
 }
 
 a p {
-
 font-size: 16px; 
-
 }
 
 .w {
-
 color:white;
-
 }
 
 .wbg {
-
 background-color:white;
-
 }
 
 .wol {
-
 outline: white solid 2px;
-
 }
 
 .wsh {
@@ -814,4 +704,4 @@ border-radius:10px;
 border-radius:50%;
 height: 1.5em;
 width:1.5em;
-}
+	}
