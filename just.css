@@ -71,6 +71,20 @@ bottom:0;
 position:fixed;
 z-index:2;
 }
+embed.fullscreen,
+iframe.fullscreen,
+.fullsize {
+height: 100%;
+width: 100%;
+}
+
+.fullwidth {
+width: 100%;
+}
+
+.fullheight {
+height: 100%;
+}
 
 .hide {
 display: none;
