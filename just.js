@@ -38,24 +38,7 @@ document.writeln(
 href="f.css"/>
 
 <link rel="stylesheet"
-href="https://futr.web.app/f.css"/>
-
-<link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"/>
-`
-);
-}
-
-
-if (css == 'old') {
-
-    document.writeln(
-    `
-<link rel="stylesheet"
-href="futr-old.css"/>
-
-<link rel="stylesheet"
-href="https://futr.web.app/futr-old.css"/>
+href="https://atstem.github.io/just.css/just.css"/>
 
 <link rel="stylesheet" 
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"/>
@@ -68,11 +51,8 @@ if (css == 'local') {
 document.writeln(
     `
 <link rel="stylesheet"
-href="f.css"/>
-
-<link rel="stylesheet"
-href="futr.css"/>
-`)
+href="just.css"/>
+`
 }
 
 if (icon == 'fontawesome') {
@@ -146,7 +126,7 @@ if (icon == '') { console.log("Icon is disabled") }
 
 
 /*Console*/
-var greeting = ("Fut'r Landed!!");
+var greeting = ("Just Landed!!");
 console.log(greeting);
 
 var verify = console > '%5'; const pages = ('<HTMLElement> > ${pages}');
