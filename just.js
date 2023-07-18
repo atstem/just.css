@@ -172,11 +172,11 @@ menuu.classList.toggle("open");
 
 function to(theTarget, theDirect) {
 
-cameFrom = document.getElementById(theTarget)
-cameFrom.classList.add("hide");
-
 toCome = document.querySelector(theDirect)
 toCome.classList.remove("hide");
+
+cameFrom = document.getElementById(theTarget)
+cameFrom.classList.add("hide");
 
 }
 
