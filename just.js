@@ -152,10 +152,10 @@ menuu.classList.toggle("open");
 
 function to(theTarget, theDirect) {
 
-toCome = document.querySelector(theDirect)
+toCome = document.getElementById(theDirect.id)
 toCome.classList.remove("hide");
 
-cameFrom = document.getElementById(theTarget)
+cameFrom = document.getElementById(theTarget.id)
 cameFrom.classList.add("hide");
 
 }
