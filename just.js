@@ -35,7 +35,7 @@ if (css == 'default') {
 document.writeln(
     `
 <link rel="stylesheet"
-href="f.css"/>
+href="just.css"/>
 
 <link rel="stylesheet"
 href="https://atstem.github.io/just.css/just.css"/>
