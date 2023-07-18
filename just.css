@@ -73,6 +73,8 @@ z-index:2;
 }
 embed.fullscreen,
 iframe.fullscreen,
+embed.fsrc,
+iframe.fsrc,
 .fullsize {
 height: 100%;
 width: 100%;
