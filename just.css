@@ -80,11 +80,11 @@ height: 100%;
 width: 100%;
 }
 
-.fullwidth {
+.fullwidth,.fw {
 width: 100%;
 }
 
-.fullheight {
+.fullheight,.fh {
 height: 100%;
 }
 
@@ -96,7 +96,7 @@ size: 0px;
 margin: 0px;
 padding: 0px;
 font-size: 0px; 
-z-index: 0;
+z-index: -1;
 size: 0;
 height: 0px;
 width: 0px;
@@ -696,6 +696,7 @@ display:grid;
 height:max-content;
 width:max-content;
 border-radius:10px;
+max-width:18.8em;
 }
 
 .cont img {
