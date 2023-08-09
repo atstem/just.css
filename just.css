@@ -702,7 +702,10 @@ width:max-content;
 border-radius:10px;
 max-width:18.8em;
 }
-
+a.cont {
+padding: 5px 5px;
+width:max-content;
+	}
 .cont img {
 height:auto;
 width: 35vw;
