@@ -114,14 +114,18 @@ max-height:4in;
 border-radius:10px;
 }
 
-a.btn {
- display:flex;
+a {
+display:flex;
  width:max-content;
  border-radius: 10px;
  color: white;
- padding: 10px 1.8em;
+ padding: 0px;
 font-size: 16px; 
 height:max-content;
+}
+
+a.btn {
+ padding: 10px 1.8em;
 }
 
 
@@ -667,7 +671,7 @@ nav.head {
 top:0px;
 left:0px;
 right:0px;
-padding: 10px 20px;
+padding: 5px 10px;
 gap:9px;
 display:block;
 z-index:3;
@@ -677,7 +681,7 @@ nav.foot {
 bottom:0px;
 left:0px;
 right:0px;
-padding: 10px 20px;
+padding: 5px 10px;
 gap:9px;
 display:block;
 z-index:3;
@@ -724,4 +728,4 @@ border-radius:10px;
 border-radius:50%;
 height: 1.5em;
 width:1.5em;
-}
+	}
