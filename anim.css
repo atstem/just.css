@@ -1,0 +1,482 @@
+/*
+
+Owned By Actwu / IIan Laucsap Cruz
+
+This is a digital property copyrighted under iian's name
+
+*/
+
+.fade {
+animation: var(--speed) fadein;
+transition: 5s ease-in-out;
+}
+
+.loadin {
+animation: infinite 2s loadin;
+}
+
+@keyframes loadin {
+0%,100% {
+opacity: 70%;
+}
+
+50% {
+opacity: 100%;
+}
+}   
+
+.fadein {
+animation: var(--speed) fadein;
+}
+
+
+.hover-fadein:hover {
+animation: var(--speed) fadein;
+}
+
+
+
+@keyframes fadein {
+from {
+opacity: 0%;
+}
+
+to {
+opacity: 100%;
+}
+}
+
+.hover-fadeout:hover {
+animation: var(--speed) fadeout;
+}
+
+.fadeout {
+animation: var(--speed) fadeout;
+}
+
+@keyframes fadeout {
+from {
+opacity: 100%;
+}
+
+to {
+opacity: 0%;
+}
+}
+
+
+.fadein {
+animation: fadein var(--speed);
+}
+
+.hover-fadein:hover {
+animation: fadein var(--speed);
+}
+
+
+@keyframes fadein {
+from {
+opacity: 0%;
+}
+
+to {
+opacity: 100%;
+}
+}
+
+.hover-fadeout:hover {
+animation: fadeoutvar(--speed);
+}
+
+.fadeout {
+animation: fadeout var(--speed);
+}
+
+@keyframes fadeout {
+from {
+opacity: 100%;
+}
+
+to {
+opacity: 0%;
+}
+}
+
+.fade-1s {
+animation: fade 1s;
+}
+
+.fade-2s {
+animation: fade 2s;
+}
+
+.fade-3s {
+animation: fade 3s;
+}
+
+.fade-4s {
+animation: fade 4s;
+}
+
+.fade-5s {
+animation: fade 5s;
+}
+
+.fade-6s {
+animation: fade 6s;
+}
+
+.fade-7s {
+animation: fade 7s;
+}
+
+.fade-8s {
+animation: fade 8s;
+}
+
+.fade-9s {
+animation: fade 9s;
+}
+
+.fade-10s {
+animation: fade 105s;
+}
+
+@keyframes fade {
+0% {
+opacity: 0%;
+}
+
+100% {
+opacity: 100%;
+}
+}
+
+
+.load-1s {
+animation: load 1s;
+}
+
+.load-2s {
+animation: load 2s;
+}
+
+.load-3s {
+animation: load 3s;
+}
+
+.load-4s {
+animation: load 4s;
+}
+
+.load-5s {
+animation: load 5s;
+}
+
+.load-6s {
+animation: load 6s;
+}
+
+.load-7s {
+animation: load 7s;
+}
+
+.load-8s {
+animation: load 8s;
+}
+
+.load-9s {
+animation: load 9s;
+}
+
+.load-10s {
+animation: load 105s;
+}
+
+@keyframes load {
+0% {
+opacity: 0%;
+background-color: unset;
+
+}
+
+50% {
+opacity: 0%;
+background-color: unset;
+}
+
+100% {
+opacity: 100%;
+}
+}
+
+
+
+.to-top1s {
+animation: tt 1s;
+}
+
+.to-top2s {
+animation: tt 2s;
+}
+
+.to-top3s {
+animation: tt 3s;
+}
+
+.to-top4s {
+animation: tt 4s;
+}
+
+.to-top5s {
+animation: tt 5s;
+}
+
+.to-top6s {
+animation: tt 6s;
+}
+
+.to-top7s {
+animation: tt 7s;
+}
+
+.to-top8s {
+animation: tt 8s;
+}
+
+.to-topt9s {
+animation: tt 9s;
+}
+
+.to-top10s {
+animation: tt 10s;
+}
+
+@keyframes tt {
+from {
+transform: translatey(0vh)
+}
+
+to {
+transform: translatey(-100vh)
+}
+
+}
+
+
+.to-bottom1s {
+animation: tb 1s;
+}
+
+.to-bottom2s {
+animation: tb 2s;
+}
+
+.to-bottom3s {
+animation: tb 3s;
+}
+
+.to-bottom4s {
+animation: tb 4s;
+}
+
+.to-bottom5s {
+animation: tb 5s;
+}
+
+.to-bottom6s {
+animation: tb 6s;
+}
+
+.to-bottom7s {
+animation: tb 7s;
+}
+
+.to-bottom8s {
+animation: tb 8s;
+}
+
+.to-bottomt9s {
+animation: tb 9s;
+}
+
+.to-bottonm10s {
+animation: tb 10s;
+}
+
+@keyframes tb {
+from {
+transform: translatey(-100vh)
+}
+
+to {
+transform: translatey(0vh)
+}
+
+}
+
+
+.to-right1s {
+animation: tr 1s;
+}
+
+.to-right2s {
+animation: tr 2s;
+}
+
+.to-right3s {
+animation: tr 3s;
+}
+
+.to-right4s {
+animation: tr 4s;
+}
+
+.to-right5s {
+animation: tr 5s;
+}
+
+.to-right6s {
+animation: tr 6s;
+}
+
+.to-right7s {
+animation: tr 7s;
+}
+
+.to-right8s {
+animation: tr 8s;
+}
+
+.to-right9s {
+animation: tr 9s;
+}
+
+.to-right10s {
+animation: tr 10s;
+}
+
+@keyframes tr {
+from {
+transform: translateX(-100vw)
+}
+
+to {
+transform: translateX(0vw)
+}
+
+}
+
+
+.to-left1s {
+animation: tl 1s;
+}
+
+.to-left2s {
+animation: tl 2s;
+}
+
+.to-left3s {
+animation: tl 3s;
+}
+
+.to-left4s {
+animation: tl 4s;
+}
+
+.to-left5s {
+animation: tl 5s;
+}
+
+.to-left6s {
+animation: tl 6s;
+}
+
+.to-left7s {
+animation: tl 7s;
+}
+
+.to-left8s {
+animation: tl 8s;
+}
+
+.to-left9s {
+animation: tl 9s;
+}
+
+.to-left10s {
+animation: tl 10s;
+}
+
+@keyframes tl {
+from {
+transform: translateX(0vw)
+}
+
+to {
+transform: translateX(-95vw)
+}
+
+}
+
+.delay-1s {
+animation-delay: 1s;
+}
+
+.delay-2s {
+animation-delay: 2s;
+}
+
+.delay-3s {
+animation-delay: 3s;
+}
+
+.delay-4s {
+animation-delay: 4s;
+}
+
+.delay-5s {
+animation-delay: 5s;
+}
+
+.type {
+font-size: clamp(1rem, 3vw + 1rem, 4rem);
+font-family: "Source Sans Pro", sans-serif;
+position: relative;
+width: max-content;
+}
+
+.type::before,
+.type::after {
+content: "";
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+}
+
+.type::before {
+background: #000000;
+animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) .1s forwards;
+}
+
+.type::after {
+width: 0.1em;
+background: rgb(255, 255, 255);
+animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) .1s forwards,
+blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+@keyframes typewriter {
+to {
+left: 100%;
+}
+}
+
+@keyframes blink {
+to {
+background: #000000;
+}
+}
+}
