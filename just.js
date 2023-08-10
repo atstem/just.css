@@ -41,7 +41,7 @@ href="just.css"/>
 href="https://atstem.github.io/just.css/just.css"/>
 
 <link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"/>
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
 `
 );
 }
@@ -60,7 +60,7 @@ if (icon == 'fontawesome') {
 document.writeln(
     `
         <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"/>
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
         `
 );
 }
