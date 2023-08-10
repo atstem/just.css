@@ -674,6 +674,72 @@ flex-wrap: nowrap;
                     }
     }
 
+#logoscreen, [logoscreen] {
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+width: 0%;
+height: 0%;
+z-index: 4;
+position: fixed;
+font-size: .3in;
+size: 0%;
+
+animation: logoscreen 2s;
+opacity: 0%;
+
+display: grid;
+place-content: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 2;
+overflow-y: scroll;
+
+}
+
+#logoscreen * {
+display: grid;
+place-content: center;
+justify-content: center;
+flex-wrap: wrap;
+z-index: 2;
+}
+
+@keyframes logoscreen {
+0% {
+width: auto;
+height: auto;
+opacity: 100%;
+size: auto;
+}
+
+30% {
+width: auto;
+height: auto;
+opacity: 100%;
+size: auto;
+}
+
+50% {
+width: auto;
+height: auto;
+opacity: 100%;
+size: auto;
+}
+
+100% {
+width: auto;
+height: auto;
+opacity: 0%;
+size: auto;
+}
+
+}
+
+
+
+
 nav.head {
 top:0px;
 left:0px;
@@ -692,6 +758,38 @@ padding: 5px 10px;
 gap:9px;
 display:block;
 z-index:3;
+}
+
+@media screen and (orientation: landscape) {
+nav.navi {
+top: 0px;
+left: 0px;
+width: 5em;
+bottom: 0px;
+display: grid;
+place-content: center;
+justify-content: center;
+
+position: fixed;
+z-index: 2;
+}
+}
+
+@media screen and (orientation: portrait) {
+nav.navi {
+bottom: 0px;
+right: 0px;
+left: 0px;
+position: fixed;
+
+height: max-content;
+display: flex;
+justify-content: space-around;
+place-content: center;
+padding: 0.51em;
+padding-top: 0.1em;
+padding-bottom: 0.1em;
+}
 }
 
 .hero {
