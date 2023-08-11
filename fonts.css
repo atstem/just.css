@@ -1,0 +1,20 @@
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Borel&family=Cinzel+Decorative&family=Comfortaa:wght@300;400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Parisienne&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Sacramento&family=Silkscreen:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&family=VT323&display=swap');
+
+.amatic,.amatic * { font-family: 'Amatic SC', cursive; }
+.borel,.borel *{ font-family: 'Borel', cursive; }
+.cinzel,.cinzel * { font-family: 'Cinzel Decorative', cursive; }
+.comfort,.comfortaa, .comfort *,.comfortaa * {font-family: 'Comfortaa', cursive; }
+.ibm ,.ibm *{ font-family: 'IBM Plex Mono', monospace; }
+.lora .lora *{ font-family: 'Lora', serif; }
+.mont,.montserrat,.mont *,.montserrat * {font-family: 'Montserrat',} sans-serif;
+.pari,.parisienne,.pari *,.parisienne * { font-family: 'Parisienne', cursive; }
+.play,.playfair, play *,.playfair * {font-family: 'Playfair Display', serif; }
+.pop,.poppins,.pop *,.poppins *{font-family: 'Poppins', sans-serif;}
+.press,.press *{font-family: 'Press Start 2P', cursive;}
+.prompt,.prompt * { font-family: 'Prompt', sans-serif; }
+.quick ,.quick *{ font-family: 'Quicksand', sans-serif; }
+.sacra,.sacramento, .sacra *,.sacramento * { font-family: 'Sacramento', cursive; }
+.slik , .silkscreen,.silk *,.silkscreen * { font-family: 'Silkscreen', cursive; }
+.spacemono,.spacemono * {font-family: 'Space Mono', monospace;}
+.unbound {font-family: 'Unbounded', cursive;}
+.vt323,.pixel,.vt323 *,.pixel * { font-family: 'VT323', monospace;}
