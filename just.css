@@ -273,6 +273,10 @@ p.light {
 font-weight: lighter;
 }
 
+i.small, span.small {
+font-size:18px;
+}
+
 i, span {
 font-size:28px;
 }
@@ -837,4 +841,4 @@ border-radius:10px;
 border-radius:50%;
 height: 1.5em;
 width:1.5em;
-}
+	}
