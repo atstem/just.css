@@ -6,138 +6,12 @@ This is a digital property copyrighted under iian's name
 
 */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
-/* Import assets and needs Automatically*/
-body = document.querySelector("body");
-meta = document.querySelector("meta");
-html = document.querySelector("html");
-
-const defaultconfig = `
-const config = [css = '', icon = '']
-// const configstate = 'defined'
-`
-
-scriptt = document.createElement("script");
-scriptt.classList.add("defaultconfigset")
-scriptt.append(defaultconfig)
-
-body.append(scriptt);
-
-
-if (configstate == 'defined') {
-
-defaultscriptt = document.querySelector("script.defaultconfigset");
-defaultscriptt.innerHTML = ``
-
-}
-
-if (css == 'default') {
-
-document.writeln(
-    `
-<link rel="stylesheet"
-href="just.css"/>
-
-<link rel="stylesheet"
-href="https://atstem.github.io/just.css/just.css"/>
-
-<link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
-`
-);
-}
-
-if (css == 'local') {
-
-document.writeln(
-    `
-<link rel="stylesheet"
-href="just.css"/>
-`
-}
-
-if (icon == 'fontawesome') {
-
-document.writeln(
-    `
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css"/>
-        `
-);
-}
-if (icon == 'google') {
-document.writeln(
-    `
-
-    <style>
-
-    .material-symbols-outlined {
-        transition:1s;
-       
-        font-variation-settings:
-        'FILL' 1,
-        'wght' 300,
-        'GRAD' 200,
-        'opsz' 40
-    } 
-    
-    </style>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
-        `
-);
-}
-
-if (icon == 'all') {
-
-document.writeln(
-    `
-        <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css"/>
-        `
-)
-
-document.writeln(
-    `
-
-    <style>
-
-    .material-symbols-outlined {
-        transition:1s;
-       
-        font-variation-settings:
-        'FILL' 1,
-        'wght' 300,
-        'GRAD' 200,
-        'opsz' 40
-    }
-    
-    
-    </style>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
-        `
-);
-}
-
-if (css == '') { console.log("Css is disabled") }
-if (icon == '') { console.log("Icon is disabled") }
 
 
 /*Console*/
 var greeting = ("Just Landed!!");
 console.log(greeting);
 
-var verify = console > '%5'; const pages = ('<HTMLElement> > ${pages}');
-const start = ('true', true); const console_comment = 'console';
-document < `${pages}` ? 'continue' : verify;
-
-document < verify ? verify : 'continue'
-console < matchMedia('error') ? start.verify : 'continue'
-var log_comment = ('/:function', "Uncaught TypeError: %reason%")
-
-console_comment < true ? log_comment : 'continue';
 
 /*Menu*/
 function menu() {
@@ -152,10 +26,10 @@ menuu.classList.toggle("open");
 
 function to(theTarget, theDirect) {
 
-toCome = document.getElementById(theDirect.id)
+toCome = document.getElementById(theDirect.id);
 toCome.classList.remove("hide");
 
-cameFrom = document.getElementById(theTarget.id)
+cameFrom = document.getElementById(theTarget.id);
 cameFrom.classList.add("hide");
 
 }
@@ -181,12 +55,12 @@ Data's
 */
 
 /*Get Data from variable*/
-function setdata(dataSetname, setTarget) {
+function setLocal(dataSetname, setTarget) {
 localStorage.setItem(dataSetname, setTarget);
 }
 
 /*Deletes Data from variable*/
-function deldata(dataDelname) {
+function delLocal(dataDelname) {
 localStorage.clear(dataDelname);
 }
 
@@ -196,17 +70,12 @@ localStorage.getItem(dataGetname);
 }
 
 
-/*Sends a - g to result page*/
-function uptLocal(dataSetname,setTarget,dataGetname) {/*Get Data from a - g*/
+function uptLocal(dataSetname,setTarget,dataGetname) {
 localStorage.setItem(dataSetname, setTarget);
 localStorage.getItem(dataGetname);
 }
 
 
-/*Gets Local Data a - g to result page*/
-function getLocal(dataGetname) {
-localStorage.getItem(dataGetname);
-}
 
 async function send_db(serverUrl, dataName, data) {
 
@@ -463,4 +332,3 @@ const observer = new IntersectionObserver((entries) => {
 const toAnimate = document.querySelectorAll('.scrollanimate')
 toAnimate.forEach((el) => observer.observe(el))
 }
-
