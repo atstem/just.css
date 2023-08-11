@@ -249,19 +249,38 @@ p.light {
 font-weight: lighter;
 }
 
-i.small, span.small {
+
+i.small {
+font-size:16px;
+}
+
+i{
 font-size:18px;
 }
 
-i, span {
+i.mid {
+font-size:24px
+}
+
+i.big{
+font-size:36px;
+}
+
+
+
+span.small {
+font-size:18px;
+}
+
+span {
 font-size:28px;
 }
 
-i.mid, span.mid {
+span.mid {
 font-size:32px
 }
 
-i.big, span.big{
+span.big{
 font-size:46px;
 }
 
