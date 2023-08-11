@@ -217,8 +217,12 @@ p.mid {
 font-size:24px
 }
 
-p.big{
-font-size:32px;
+p.big,p.large{
+font-size:36px;
+}
+
+p.xl{
+font-size:42px;
 }
 
 p.hel {
@@ -801,6 +805,14 @@ gap:9px;
 display:grid;
 }
 
+.hero.mid {
+padding: 24em 40px;
+}
+
+.hero.big {
+padding: 36em 40px;
+}
+
 .cont {
 padding: 20px 20px;
 gap:15px;
@@ -841,4 +853,4 @@ border-radius:10px;
 border-radius:50%;
 height: 1.5em;
 width:1.5em;
-}
+	}
