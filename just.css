@@ -796,7 +796,7 @@ gap:9px;
 }
 
 .hero {
-padding: 80px 40px;
+padding: 13em 40px;
 gap:9px;
 display:grid;
 }
@@ -841,4 +841,4 @@ border-radius:10px;
 border-radius:50%;
 height: 1.5em;
 width:1.5em;
-	}
+}
