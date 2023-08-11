@@ -771,17 +771,22 @@ gap:9px;
 }
 }
 
+
 .hero {
-padding: 13em 40px;
+padding: 5em 40px;
 gap:9px;
 display:grid;
 }
 
 .hero.mid {
-padding: 24em 40px;
+padding: 18em 40px;
 }
 
 .hero.big {
+padding: 24em 40px;
+}
+
+.hero.xl {
 padding: 36em 40px;
 }
 
