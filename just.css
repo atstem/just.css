@@ -31,7 +31,7 @@ margin: 0px;
 user-zoom: none;
 background-color: white;
 color: back;
-user-select: none;
+
 }
 
 * {
@@ -55,11 +55,261 @@ outline:0px;
 --yell:#ffe24f;
 --prim:#48cf8b;
 --black:#101010;
+--white:#f2f2f2;
+--mate:#eaeaff;
 --grey: #505050;
 --dark:#303040;
+--navi:#191920;
 --pink:#ffb2ab;
 --vio:#b496ff;
 }
+
+.w {
+color: var(--white);
+}
+
+.wbg {
+background-color: var(--white);
+}
+
+.wol {
+outline: var(--white) solid 2px;
+}
+
+.wsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--white);
+
+}
+
+.b {
+
+color:var(--black);
+
+}
+
+.bbg {
+
+background-color:var(--black);
+
+}
+
+.bol {
+
+outline: var(--black) solid 2px;;
+
+}
+
+.bsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--black );
+
+}
+
+.s {
+
+color:var(--grey);
+
+}
+
+.sbg {
+
+background-color:var(--grey);
+
+}
+
+.sol {
+
+outline: var(--grey) solid 2px;;
+
+}
+
+.ssh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--grey );
+
+}
+
+.d {
+color: var(--dark);
+}
+
+.dbg {
+background-color: var(--dark);
+}
+
+.dol {
+	outline: var(--dark) solid 2px;
+}
+
+.dsh {
+	box-shadow: 2.5px 2.5px 0px 2px var(--dark);
+}
+
+.n {
+color: var(--navi);
+}
+
+.nbg {
+background-color: var(--navi);
+}
+
+.nol {
+	outline: var(--navi) solid 2px;
+}
+
+.msh {
+	box-shadow: 2.5px 2.5px 0px 2px var(--mate);
+}
+
+.msg {
+background-color: var(--mate);
+}
+
+.msl {
+	outline: var(--mate) solid 2px;
+}
+
+.msh {
+	box-shadow: 2.5px 2.5px 0px 2px var(--mate);
+}
+
+.r {
+
+color:var(--red);
+
+}
+
+.rbg {
+
+background-color:var(--red);
+
+}
+
+.rol {
+
+outline: var(--red) solid 2px;
+
+}
+
+.rsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--red);
+
+}
+
+.y {
+color:var(--yell);
+}
+
+.ybg {
+background-color:var(--yell);
+}
+
+.yol {
+outline:  var(--yell) solid 2px;
+}
+
+.ysh {
+box-shadow: 2.5px 2.5px 0px 2px var(--yell );
+}
+
+.l {
+
+color:var(--blue);
+
+}
+
+.lbg {
+
+background-color:var(--blue);
+
+}
+
+.lol {
+
+outline:  var(--blue) solid 2px;
+
+}
+
+.lsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--blue );
+
+}
+
+.g {
+
+color:var(--prim);
+
+}
+
+.gbg {
+
+background-color:var(--prim);
+
+}
+
+.gol {
+
+outline:  var(--prim) solid 2px;
+
+}
+
+.gsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--prim );
+
+}
+
+.p {
+
+color:var(--pink);
+
+}
+
+.pbg {
+
+background-color:var(--pink);
+
+}
+
+.pol {
+
+outline:  var(--pink) solid 2px;
+
+}
+
+.psh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--pink );
+
+}
+
+.v {
+
+color:var(--vio);
+
+}
+
+.vbg {
+
+background-color:var(--vio);
+
+}
+
+.vol {
+
+outline:  var(--vio) solid 2px;
+
+}
+
+.vsh {
+
+box-shadow: 2.5px 2.5px 0px 2px var(--vio);
+
+}
+
 
 bg {
 z-index: -1;
@@ -283,296 +533,45 @@ span.big{
 font-size:46px;
 }
 
-a p {
-font-size: 16px; 
-}
+a p {font-size: 16px; }
 
-.w {
-color:white;
-}
+.lock  {user-select: none;}
 
-.wbg {
-background-color:white;
-}
+.sticky {position:sticky;}
 
-.wol {
-outline: white solid 2px;
-}
-
-.wsh {
-
-box-shadow: 2.5px 2.5px 0px 2px white;
-
-}
-
-.b {
-
-color:var(--black);
-
-}
-
-.bbg {
-
-background-color:var(--black);
-
-}
-
-.bol {
-
-outline: var(--black) solid 2px;;
-
-}
-
-.bsh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--black );
-
-}
-
-.s {
-
-color:var(--grey);
-
-}
-
-.sbg {
-
-background-color:var(--grey);
-
-}
-
-.sol {
-
-outline: var(--grey) solid 2px;;
-
-}
-
-.ssh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--grey );
-
-}
-
-.d {
-color: var(--dark);
-}
-
-.dbg {
-background-color: var(--dark);
-}
-
-.dol {
-	outline: var(--dark) solid 2px;
-}
-
-.dsh {
-	box-shadow: 2.5px 2.5px 0px 2px var(--dark);
-}
-
-.r {
-
-color:var(--red);
-
-}
-
-.rbg {
-
-background-color:var(--red);
-
-}
-
-.rol {
-
-outline: var(--red) solid 2px;
-
-}
-
-.rsh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--red);
-
-}
-
-.y {
-color:var(--yell);
-}
-
-.ybg {
-background-color:var(--yell);
-}
-
-.yol {
-outline:  var(--yell) solid 2px;
-}
-
-.ysh {
-box-shadow: 2.5px 2.5px 0px 2px var(--yell );
-}
-
-.l {
-
-color:var(--blue);
-
-}
-
-.lbg {
-
-background-color:var(--blue);
-
-}
-
-.lol {
-
-outline:  var(--blue) solid 2px;
-
-}
-
-.lsh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--blue );
-
-}
-
-.g {
-
-color:var(--prim);
-
-}
-
-.gbg {
-
-background-color:var(--prim);
-
-}
-
-.gol {
-
-outline:  var(--prim) solid 2px;
-
-}
-
-.gsh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--prim );
-
-}
-
-.p {
-
-color:var(--pink);
-
-}
-
-.pbg {
-
-background-color:var(--pink);
-
-}
-
-.pol {
-
-outline:  var(--pink) solid 2px;
-
-}
-
-.psh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--pink );
-
-}
-
-.v {
-
-color:var(--vio);
-
-}
-
-.vbg {
-
-background-color:var(--vio);
-
-}
-
-.vol {
-
-outline:  var(--vio) solid 2px;
-
-}
-
-.vsh {
-
-box-shadow: 2.5px 2.5px 0px 2px var(--vio);
-
-}
-
- .sticky {
-
-position:sticky;
-
-}
-
-.float {
-
-position:fixed;
-
-}
+.float {position:fixed;}
 
 .item {
-
 display: flex;
-
 gap:9px;
-
 justify-content: center;
-
 place-items: center;
-
 flex-wrap: wrap;
-
 gap: .1fr;
-
 }
 
 .item-left {
-
 display: flex;
-
 gap:9px;
-
 justify-content: flex-start;
-
 place-content: flex-start;
-
 flex-grow: 1;
-
 flex-wrap: wrap;
-
 }
 
 .item-right {
-
 display: flex;
-
 gap:9px;
-
 justify-content: flex-end;
-
 place-content: flex-end;
-
 flex-grow: 1;
-
 flex-wrap: wrap;
-
 }
 
 .center {
-
 display: grid;
-
 justify-content: center;
-
 place-content: center;
-
 }
 
 .left {
@@ -583,7 +582,6 @@ place-content: left;
 }
 
 .right {
-
 display: grid;
 gap:9px;
 justify-content: right;
@@ -656,15 +654,29 @@ display: grid;
     grid-template-columns: 1fr 1fr 1fr;
    grid-auto-rows: max-content;
     }
+    
+.gridby4 {
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    gap: 9px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-auto-rows: max-content;
+    }
+
+.stay {
+flex-wrap: nowrap;
+}
 
 .flow {
-flex-wrap: nowrap;
+flex-wrap: wrap;
 }
 
 @media screen and (max-width:550px) {
         .grid,
-       .gridby2:not(.gridby2.flow),
-        .gridby3:not(.gridby3.flow) {
+       .gridby2:not(.gridby2.stay),
+        .gridby3:not(.gridby3.stay),
+           .gridby4:not(.gridby3.stay) {
             display: flex;
             justify-content: center;
             place-content: center;
