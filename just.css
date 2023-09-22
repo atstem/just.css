@@ -232,7 +232,7 @@ max-height:4in;
 border-radius:10px;
 }
 
-a {
+a, button {
 display:flex;
  width:max-content;
  border-radius: 10px;
@@ -242,7 +242,7 @@ font-size: 16px;
 height:max-content;
 }
 
-a.btn {padding: 10px 1.8em;}
+a.btn, button.btn {padding: 10px 1.8em;}
 
 
 div.input {
@@ -339,13 +339,13 @@ p.light {font-weight: lighter;}
 
 i.small {font-size:18px;}
 
-i{font-size:24px;}
+i {font-size:24px;}
 
 i.mid {font-size:28px
 }
 
-i.big{font-size:36px;}
-i.xl{font-size:42px;}
+i.big {font-size:36px;}
+i.xl {font-size:42px;}
 
 
 span.small {font-size:18px;}
@@ -356,7 +356,7 @@ span.mid {font-size:32px}
 
 span.big{font-size:46px;}
 
-a p {font-size: 16px; }
+a p, button p {font-size: 16px; }
 
 .lock  {user-select: none;}
 
@@ -609,6 +609,12 @@ gap:9px;
 }
 
 
+.hero.small {
+padding: 2.5em 40px;
+gap:9px;
+display:grid;
+}
+
 .hero {
 padding: 5em 40px;
 gap:9px;
@@ -637,17 +643,15 @@ border-radius:10px;
 max-width:18.8em;
 }
 
-a.cont {
+.cont.fixed {width:18em;}
+.cont.card {width:5em; max-width:5em; height:7.5em}
+
+a.cont, button.cont {
 padding: 5px 5px;
 width:max-content;
 }
 
-.cont img {
-height:auto;
-width: 35vw;
-max-width:2in;
-border-radius:10px;
-}
+.cont img { height:auto; width: 35vw; max-width:2in; border-radius:10px; }
 
 .cont img.profile {
 height:auto;
